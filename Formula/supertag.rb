@@ -1,7 +1,7 @@
 class Supertag < Formula
   desc "CLI for Tana integration: query, create, sync, and MCP server"
   homepage "https://github.com/jcfischer/supertag-cli"
-  version "2.5.13"
+  version "2.6.0"
   license "MIT"
 
   # Bun is required for supertag-export (Playwright browser automation)
@@ -10,11 +10,11 @@ class Supertag < Formula
   on_macos do
     on_arm do
       url "https://github.com/jcfischer/supertag-cli/releases/download/v#{version}/supertag-cli-macos-arm64.zip"
-      sha256 "40adfa4c130867c568c690297df3c127dc1702dc20de589fb41a818fd6d02d20"
+      sha256 "eb71f8f57a33afa9e2a268004dc8a003b977dd7cd5008353c171b02f133e2ad1"
     end
     on_intel do
       url "https://github.com/jcfischer/supertag-cli/releases/download/v#{version}/supertag-cli-macos-x64.zip"
-      sha256 "928554484f0b4c69445630bb6ca741d02cfcf682fb7f21e1329d87d5ae4a0acd"
+      sha256 "b0462706846b1cb4c23f2e03175c1b5a0fe451324cc38223e4b612e23138e0e3"
     end
   end
 
